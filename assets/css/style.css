@@ -510,14 +510,14 @@ body {
   #CTA
 \*-----------------------------------*/
 
-.cta { background-color: var(--oxford-blue-1); }
+/* .cta { background-color: var(--oxford-blue-1); } */
 
-.cta-banner { margin-block-end: 50px; }
+.cta-banner { margin-block-end: 5px; }
 
 .cta .section-subtitle { text-transform: capitalize; }
 
 .cta .section-title {
-  color: var(--white);
+  color: var(--black);
   font-size: var(--fs-3);
   margin-block-end: 30px;
 }
@@ -610,17 +610,27 @@ body {
   background-color: var(--oxford-blue-2);
   color: var(--light-steel-blue);
 }
+.footer-brand .logo { color: var(--white); }
 
 .footer-top .container {
   display: grid;
   gap: 30px;
 }
+/* .footer-top .container {
+  display: flex;
+  gap: 30px;
+}
 
-.footer-brand .logo { color: var(--white); }
+/* Media query for smaller screens */
+/* @media screen and (max-width: 768px) {
+  .footer {
+    /* display: grid;
+    /* grid-template-columns: 1fr; */
+    /* Other grid properties */
 
 .footer-text {
   line-height: 1.6;
-  margin-block: 15px;
+  margin-block: 50px;
 }
 
 .schedule {
